@@ -1,0 +1,6 @@
+id,service,product,city,zipcode
+{{id}},{{service}},{{product}},{{city}},{{zipcode}}
+16,Kitchen,Stoves,Bolingbrook,60490
+17,Appliances,Ovens,Arlington Heights,60005
+18,Exterior Home,Siding,Carol Stream,60188
+19,Bathroom,Showers,Naperville,60564
