@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <script type="text/javascript" src="res/Resemble.js"></script>
+    <script>
+!function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
+  api_host:'https://app.posthog.com',
+  persistence:'localStorage',
+  autocapture:false,
+  capture_pageview:false,
+  api_transport:'sendBeacon',
+  loaded: function(posthog) { 
+    posthog.capture("report_feature",{distinct_id:"9c73c4eb-6720-4ecf-b2b5-bbd72f2eac98",karate_version:"1.4.1",karate_meta:null});
+  }
+});
+</script>
+
+    <title>karateapi.getServices</title>
+  </head>
+  <body>
+    <div id="root-container">
+      <div id="leftnav">
+        
+        <div>
+  <div class="nav-logo">
+    <a href="https://karatelabs.io">
+      <img src="karate-labs-logo-ring.svg" alt="Karate Labs"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">1</div>
+      <div id="nav-fail" class="bg-danger">1</div>
+    </div>
+  </div>
+  <div id="nav-env">
+    <div></div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>
+  <div id="nav-date">
+    <div>2024-10-03 05:02:14 AM</div>
+  </div>
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item passed">
+            <a href="#[1:3]"><span>[1:3]</span> <span>Testing the GET ALL Lowe&#39;s Installation and Services Details</span></a>
+          </div>
+          <div class="nav-item failed">
+            <a href="#[2:9]"><span>[2:9]</span> <span>testing the get one User Details</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">karateapi/getServices.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">Getting all Installations and Services details</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1:3]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1:3]</span>
+                <span class="scenario-name">Testing the GET ALL Lowe&#39;s Installation and Services Details</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>20</span>
+            </div>
+          </div>
+          
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref passed">4</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url &#39;http://localhost:3000/services&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref passed">5</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method GET</span>
+      </div>
+    </div>
+    <div class="time-cell passed">20</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.5">05:02:14.003 request:
+1 &gt; GET http://localhost:3000/services
+1 &gt; Host: localhost:3000
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.11 (Java/21.0.4)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+05:02:14.015 response time in milliseconds: 10
+1 &lt; 200
+1 &lt; X-Powered-By: Express
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Content-Length: 1817
+1 &lt; ETag: W/&quot;719-UeRKdxUyW3syUsULRvT0pWYF1Wo&quot;
+1 &lt; Date: Thu, 03 Oct 2024 10:02:14 GMT
+1 &lt; Connection: keep-alive
+1 &lt; Keep-Alive: timeout=5
+[{&quot;id&quot;:1,&quot;service&quot;:&quot;Appliances&quot;,&quot;product&quot;:&quot;Cooktops&quot;,&quot;city&quot;:&quot;Arlington Heights&quot;,&quot;zipcode&quot;:&quot;60005&quot;},{&quot;id&quot;:2,&quot;service&quot;:&quot;Bathroom&quot;,&quot;product&quot;:&quot;Bathroom Remodeling&quot;,&quot;city&quot;:&quot;Naperville&quot;,&quot;zipcode&quot;:&quot;60564&quot;},{&quot;id&quot;:3,&quot;service&quot;:&quot;Exterior Home&quot;,&quot;product&quot;:&quot;Fencing&quot;,&quot;city&quot;:&quot;Northbrook&quot;,&quot;zipcode&quot;:&quot;60062&quot;},{&quot;id&quot;:4,&quot;service&quot;:&quot;Flooring&quot;,&quot;product&quot;:&quot;Carpet&quot;,&quot;city&quot;:&quot;Carol Stream&quot;,&quot;zipcode&quot;:&quot;60188&quot;},{&quot;id&quot;:5,&quot;service&quot;:&quot;Kitchen&quot;,&quot;product&quot;:&quot;Cabinets&quot;,&quot;city&quot;:&quot;Bolingbrook&quot;,&quot;zipcode&quot;:&quot;60490&quot;},{&quot;id&quot;:6,&quot;service&quot;:&quot;Kitchen&quot;,&quot;product&quot;:&quot;Countertops&quot;,&quot;city&quot;:&quot;Northbrook&quot;,&quot;zipcode&quot;:&quot;60062&quot;},{&quot;id&quot;:7,&quot;service&quot;:&quot;Exterior Home&quot;,&quot;product&quot;:&quot;Gutters&quot;,&quot;city&quot;:&quot;Bolingbrook&quot;,&quot;zipcode&quot;:&quot;60490&quot;},{&quot;id&quot;:8,&quot;service&quot;:&quot;Bathroom&quot;,&quot;product&quot;:&quot;Sinks &amp; Faucets&quot;,&quot;city&quot;:&quot;Northbrook&quot;,&quot;zipcode&quot;:&quot;60062&quot;},{&quot;id&quot;:9,&quot;service&quot;:&quot;Appliances&quot;,&quot;product&quot;:&quot;Dishwashers&quot;,&quot;city&quot;:&quot;Arlington Heights&quot;,&quot;zipcode&quot;:&quot;60005&quot;},{&quot;id&quot;:10,&quot;service&quot;:&quot;Flooring&quot;,&quot;product&quot;:&quot;Hardwood Flooring&quot;,&quot;city&quot;:&quot;Carol Stream&quot;,&quot;zipcode&quot;:&quot;60188&quot;},{&quot;id&quot;:11,&quot;service&quot;:&quot;Bathroom&quot;,&quot;product&quot;:&quot;Toilets&quot;,&quot;city&quot;:&quot;Naperville&quot;,&quot;zipcode&quot;:&quot;60564&quot;},{&quot;id&quot;:12,&quot;service&quot;:&quot;Kitchen&quot;,&quot;product&quot;:&quot;Garbage Disposals&quot;,&quot;city&quot;:&quot;Bolingbrook&quot;,&quot;zipcode&quot;:&quot;60490&quot;},{&quot;id&quot;:13,&quot;service&quot;:&quot;Flooring&quot;,&quot;product&quot;:&quot;Tile Flooring&quot;,&quot;city&quot;:&quot;Naperville&quot;,&quot;zipcode&quot;:&quot;60564&quot;},{&quot;id&quot;:14,&quot;service&quot;:&quot;Appliances&quot;,&quot;product&quot;:&quot;Refrigerators&quot;,&quot;city&quot;:&quot;Arlington Heights&quot;,&quot;zipcode&quot;:&quot;60005&quot;},{&quot;id&quot;:15,&quot;service&quot;:&quot;Exterior Home&quot;,&quot;product&quot;:&quot;Roofing&quot;,&quot;city&quot;:&quot;Carol Stream&quot;,&quot;zipcode&quot;:&quot;60088&quot;},{&quot;id&quot;:16,&quot;service&quot;:&quot;Kitchen&quot;,&quot;product&quot;:&quot;Ovens&quot;,&quot;city&quot;:&quot;Bolingbrook&quot;,&quot;zipcode&quot;:&quot;60490&quot;},{&quot;id&quot;:17,&quot;service&quot;:&quot;Kitchen&quot;,&quot;product&quot;:&quot;Ovens&quot;,&quot;city&quot;:&quot;Bolingbrook&quot;,&quot;zipcode&quot;:&quot;60490&quot;},{&quot;id&quot;:18,&quot;service&quot;:&quot;Appliances&quot;,&quot;city&quot;:&quot;Northbrook&quot;},{&quot;id&quot;:19,&quot;service&quot;:&quot;Exterior Home&quot;,&quot;product&quot;:&quot;Gutters&quot;,&quot;city&quot;:&quot;Arlington Heights&quot;,&quot;zipcode&quot;:&quot;60005&quot;},{&quot;id&quot;:20,&quot;service&quot;:&quot;Appliances&quot;,&quot;city&quot;:&quot;Northbrook&quot;}]
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.6">
+      <div class="step-ref passed">6</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[2:9]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[2:9]</span>
+                <span class="scenario-name">testing the get one User Details</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>34</span>
+            </div>
+          </div>
+          
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.11">
+      <div class="step-ref passed">11</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url &#39;http://localhost:3000/services/3&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">3</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.12">
+      <div class="step-ref passed">12</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method GET</span>
+      </div>
+    </div>
+    <div class="time-cell passed">25</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.12">05:02:14.045 request:
+1 &gt; GET http://localhost:3000/services/3
+1 &gt; Host: localhost:3000
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.11 (Java/21.0.4)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+05:02:14.063 response time in milliseconds: 8
+1 &lt; 200
+1 &lt; X-Powered-By: Express
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Content-Length: 8
+1 &lt; ETag: W/&quot;8-0rVkPUSjKXvAXSnOiVTQsEptELY&quot;
+1 &lt; Date: Thu, 03 Oct 2024 10:02:14 GMT
+1 &lt; Connection: keep-alive
+1 &lt; Keep-Alive: timeout=5
+{&quot;id&quot;:3}
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.13">
+      <div class="step-ref passed">13</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.14">
+      <div class="step-ref failed">14</div>
+      
+      <div class="step-cell failed">
+        <span>*</span>&nbsp;<span>match response.services.id == 3</span>
+      </div>
+    </div>
+    <div class="time-cell failed">7</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.14">05:02:14.072 classpath:karateapi/getServices.feature:14
+* match response.services.id == 3
+match failed: EQUALS
+  $ | actual path does not exist (STRING:NUMBER)
+  &#39;#notpresent&#39;
+  3
+
+classpath:karateapi/getServices.feature:14
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.15">
+      <div class="step-ref skipped">15</div>
+      
+      <div class="step-cell skipped">
+        <span>*</span>&nbsp;<span>match response.services.service == &#39;Exterior Home&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.16">
+      <div class="step-ref skipped">16</div>
+      
+      <div class="step-cell skipped">
+        <span>Then</span>&nbsp;<span>print response</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#Reading the file ExpectedOutput.json and storing same response in variable expectedResult</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="0.19">
+      <div class="step-ref skipped">19</div>
+      
+      <div class="step-cell skipped">
+        <span>Given</span>&nbsp;<span>expectedResult=read(&#39;./services.json&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#Asserting the Actual Response with the Expected Response</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="0.21">
+      <div class="step-ref skipped">21</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>match response == expectedResult</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+

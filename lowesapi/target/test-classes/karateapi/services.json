@@ -1,0 +1,109 @@
+{
+    "services": [
+        {
+            "id": 1,
+            "service": "Appliances",
+            "product": "Cooktops",
+            "city": "Arlington Heights",
+            "zipcode": 60005
+        },
+        {
+            "id": 2,
+            "service": "Bathroom",
+            "product": "Bathroom Remodelling",
+            "city": "Naperville",
+            "zipcode": 60564
+        },
+       	{
+            "id": 3,
+            "service": "Exterior Home",
+            "product": "Fencing",
+            "city": "Northbrook",
+            "zipcode": 60062
+        },
+        {
+            "id": 4,
+            "service": "Flooring",
+            "product": "Carpet",
+            "city": "Carol Stream",
+            "zipcode": 60188
+        },
+        {
+            "id": 5,
+            "service": "Kitchen",
+            "product": "Cabinets",
+            "city": "Bolingbrook",
+            "zipcode": 60490
+        },
+        {
+            "id": 6,
+            "service": "Kitchen",
+            "product": "Countertops",
+            "city": "Northbrook",
+            "zipcode": 60062
+        },
+        {
+    		"id": 7,
+    		"service": "Exterior Home",
+    		"product": "Gutters",
+    		"city": "Bolingbrook",
+    		"zipcode": "60490"
+  		},
+  		{
+    		"id": 8,
+    		"service": "Bathroom",
+    		"product": "Sinks & Faucets",
+    		"city": "Northbrook",
+    		"zipcode": "60062"
+  		},
+  		{
+    		"id": 9,
+    		"service": "Appliances",
+    		"product": "Dishwashers",
+    		"city": "Arlington Heights",
+    		"zipcode": "60005"
+  		},
+  		{
+    		"id": 10,
+    		"service": "Flooring",
+    		"product": "Hardwood Flooring",
+    		"city": "Carol Stream",
+    		"zipcode": "60188"
+  		},
+  		{
+    		"id": 11,
+    		"service": "Bathroom",
+    		"product": "Toilets",
+    		"city": "Naperville",
+   		 	"zipcode": "60564"
+  		},
+  		{
+    		"id": 12,
+    		"service": "Kitchen",
+    		"product": "Garbage Disposals",
+    		"city": "Bolingbrook",
+    		"zipcode": "60490"
+  		},
+  		{
+    		"id": 13,
+    		"service": "Flooring",
+    		"product": "Tile Flooring",
+    		"city": "Naperville",
+    		"zipcode": "60564"
+  		},
+  		{
+   		 	"id": 14,
+    		"service": "Appliances",
+    		"product": "Refrigerators",
+    		"city": "Arlington Heights",
+    		"zipcode": "60005"
+  		},
+  		{
+    		"id": 15,
+    		"service": "Exterior Home",
+   	 		"product": "Roofing",
+    		"city": "Carol Stream",
+    		"zipcode": "60088"
+  		}
+    ]
+}
