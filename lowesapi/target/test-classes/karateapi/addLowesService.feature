@@ -14,7 +14,7 @@ Then status 200
 
 Scenario: Testing the POST call for Installation & Services with missing fields
 Given url 'http://localhost:3000/services'
-And request { "service": "Appliances", "city": "Northbrook" }
+And request { "service": "Appliances", "product": ,"city": "Northbrook", "zipcode": }
 When method POST
 Then status 400
 * match response.error == "Product, city, and zipcode are required."
